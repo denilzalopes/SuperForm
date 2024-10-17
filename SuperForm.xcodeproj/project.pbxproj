@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA14835F2CC123D900B84FE3 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA14835E2CC123D900B84FE3 /* Language.swift */; };
+		FA1483612CC12E1900B84FE3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1483602CC12E1900B84FE3 /* HomeView.swift */; };
+		FA38D3572CC112EE0057FB2B /* SuperFormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA38D3562CC112EE0057FB2B /* SuperFormApp.swift */; };
+		FA38D3592CC112EE0057FB2B /* LanguageDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA38D3582CC112EE0057FB2B /* LanguageDescriptionView.swift */; };
+		FA38D35B2CC112F00057FB2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA38D35A2CC112F00057FB2B /* Assets.xcassets */; };
+		FA38D35E2CC112F00057FB2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA38D35D2CC112F00057FB2B /* Preview Assets.xcassets */; };
+		FA38D3682CC112F00057FB2B /* SuperFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA38D3672CC112F00057FB2B /* SuperFormTests.swift */; };
+		FA38D3722CC112F00057FB2B /* SuperFormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA38D3712CC112F00057FB2B /* SuperFormUITests.swift */; };
+		FA38D3742CC112F00057FB2B /* SuperFormUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA38D3732CC112F00057FB2B /* SuperFormUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA38D3642CC112F00057FB2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA38D34B2CC112EE0057FB2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA38D3522CC112EE0057FB2B;
+			remoteInfo = SuperForm;
+		};
+		FA38D36E2CC112F00057FB2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA38D34B2CC112EE0057FB2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA38D3522CC112EE0057FB2B;
+			remoteInfo = SuperForm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA14835E2CC123D900B84FE3 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		FA1483602CC12E1900B84FE3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FA38D3532CC112EE0057FB2B /* SuperForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA38D3562CC112EE0057FB2B /* SuperFormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFormApp.swift; sourceTree = "<group>"; };
+		FA38D3582CC112EE0057FB2B /* LanguageDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageDescriptionView.swift; sourceTree = "<group>"; };
+		FA38D35A2CC112F00057FB2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA38D35D2CC112F00057FB2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA38D3632CC112F00057FB2B /* SuperFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA38D3672CC112F00057FB2B /* SuperFormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFormTests.swift; sourceTree = "<group>"; };
+		FA38D36D2CC112F00057FB2B /* SuperFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA38D3712CC112F00057FB2B /* SuperFormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFormUITests.swift; sourceTree = "<group>"; };
+		FA38D3732CC112F00057FB2B /* SuperFormUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperFormUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA38D3502CC112EE0057FB2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA38D3602CC112F00057FB2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA38D36A2CC112F00057FB2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA38D34A2CC112EE0057FB2B = {
+			isa = PBXGroup;
+			children = (
+				FA38D3552CC112EE0057FB2B /* SuperForm */,
+				FA38D3662CC112F00057FB2B /* SuperFormTests */,
+				FA38D3702CC112F00057FB2B /* SuperFormUITests */,
+				FA38D3542CC112EE0057FB2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA38D3542CC112EE0057FB2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA38D3532CC112EE0057FB2B /* SuperForm.app */,
+				FA38D3632CC112F00057FB2B /* SuperFormTests.xctest */,
+				FA38D36D2CC112F00057FB2B /* SuperFormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA38D3552CC112EE0057FB2B /* SuperForm */ = {
+			isa = PBXGroup;
+			children = (
+				FA38D3562CC112EE0057FB2B /* SuperFormApp.swift */,
+				FA38D3582CC112EE0057FB2B /* LanguageDescriptionView.swift */,
+				FA38D35A2CC112F00057FB2B /* Assets.xcassets */,
+				FA38D35C2CC112F00057FB2B /* Preview Content */,
+				FA14835E2CC123D900B84FE3 /* Language.swift */,
+				FA1483602CC12E1900B84FE3 /* HomeView.swift */,
+			);
+			path = SuperForm;
+			sourceTree = "<group>";
+		};
+		FA38D35C2CC112F00057FB2B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA38D35D2CC112F00057FB2B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA38D3662CC112F00057FB2B /* SuperFormTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA38D3672CC112F00057FB2B /* SuperFormTests.swift */,
+			);
+			path = SuperFormTests;
+			sourceTree = "<group>";
+		};
+		FA38D3702CC112F00057FB2B /* SuperFormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA38D3712CC112F00057FB2B /* SuperFormUITests.swift */,
+				FA38D3732CC112F00057FB2B /* SuperFormUITestsLaunchTests.swift */,
+			);
+			path = SuperFormUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA38D3522CC112EE0057FB2B /* SuperForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA38D3772CC112F00057FB2B /* Build configuration list for PBXNativeTarget "SuperForm" */;
+			buildPhases = (
+				FA38D34F2CC112EE0057FB2B /* Sources */,
+				FA38D3502CC112EE0057FB2B /* Frameworks */,
+				FA38D3512CC112EE0057FB2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperForm;
+			productName = SuperForm;
+			productReference = FA38D3532CC112EE0057FB2B /* SuperForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA38D3622CC112F00057FB2B /* SuperFormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA38D37A2CC112F00057FB2B /* Build configuration list for PBXNativeTarget "SuperFormTests" */;
+			buildPhases = (
+				FA38D35F2CC112F00057FB2B /* Sources */,
+				FA38D3602CC112F00057FB2B /* Frameworks */,
+				FA38D3612CC112F00057FB2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA38D3652CC112F00057FB2B /* PBXTargetDependency */,
+			);
+			name = SuperFormTests;
+			productName = SuperFormTests;
+			productReference = FA38D3632CC112F00057FB2B /* SuperFormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA38D36C2CC112F00057FB2B /* SuperFormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA38D37D2CC112F00057FB2B /* Build configuration list for PBXNativeTarget "SuperFormUITests" */;
+			buildPhases = (
+				FA38D3692CC112F00057FB2B /* Sources */,
+				FA38D36A2CC112F00057FB2B /* Frameworks */,
+				FA38D36B2CC112F00057FB2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA38D36F2CC112F00057FB2B /* PBXTargetDependency */,
+			);
+			name = SuperFormUITests;
+			productName = SuperFormUITests;
+			productReference = FA38D36D2CC112F00057FB2B /* SuperFormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA38D34B2CC112EE0057FB2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FA38D3522CC112EE0057FB2B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					FA38D3622CC112F00057FB2B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FA38D3522CC112EE0057FB2B;
+					};
+					FA38D36C2CC112F00057FB2B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = FA38D3522CC112EE0057FB2B;
+					};
+				};
+			};
+			buildConfigurationList = FA38D34E2CC112EE0057FB2B /* Build configuration list for PBXProject "SuperForm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA38D34A2CC112EE0057FB2B;
+			productRefGroup = FA38D3542CC112EE0057FB2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA38D3522CC112EE0057FB2B /* SuperForm */,
+				FA38D3622CC112F00057FB2B /* SuperFormTests */,
+				FA38D36C2CC112F00057FB2B /* SuperFormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA38D3512CC112EE0057FB2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA38D35E2CC112F00057FB2B /* Preview Assets.xcassets in Resources */,
+				FA38D35B2CC112F00057FB2B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA38D3612CC112F00057FB2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA38D36B2CC112F00057FB2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA38D34F2CC112EE0057FB2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA14835F2CC123D900B84FE3 /* Language.swift in Sources */,
+				FA1483612CC12E1900B84FE3 /* HomeView.swift in Sources */,
+				FA38D3592CC112EE0057FB2B /* LanguageDescriptionView.swift in Sources */,
+				FA38D3572CC112EE0057FB2B /* SuperFormApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA38D35F2CC112F00057FB2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA38D3682CC112F00057FB2B /* SuperFormTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA38D3692CC112F00057FB2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA38D3742CC112F00057FB2B /* SuperFormUITestsLaunchTests.swift in Sources */,
+				FA38D3722CC112F00057FB2B /* SuperFormUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA38D3652CC112F00057FB2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA38D3522CC112EE0057FB2B /* SuperForm */;
+			targetProxy = FA38D3642CC112F00057FB2B /* PBXContainerItemProxy */;
+		};
+		FA38D36F2CC112F00057FB2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA38D3522CC112EE0057FB2B /* SuperForm */;
+			targetProxy = FA38D36E2CC112F00057FB2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA38D3752CC112F00057FB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA38D3762CC112F00057FB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA38D3782CC112F00057FB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperForm/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dlopes.SuperForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA38D3792CC112F00057FB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SuperForm/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dlopes.SuperForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA38D37B2CC112F00057FB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dlopes.SuperFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperForm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperForm";
+			};
+			name = Debug;
+		};
+		FA38D37C2CC112F00057FB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dlopes.SuperFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperForm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperForm";
+			};
+			name = Release;
+		};
+		FA38D37E2CC112F00057FB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dlopes.SuperFormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperForm;
+			};
+			name = Debug;
+		};
+		FA38D37F2CC112F00057FB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dlopes.SuperFormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperForm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA38D34E2CC112EE0057FB2B /* Build configuration list for PBXProject "SuperForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA38D3752CC112F00057FB2B /* Debug */,
+				FA38D3762CC112F00057FB2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA38D3772CC112F00057FB2B /* Build configuration list for PBXNativeTarget "SuperForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA38D3782CC112F00057FB2B /* Debug */,
+				FA38D3792CC112F00057FB2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA38D37A2CC112F00057FB2B /* Build configuration list for PBXNativeTarget "SuperFormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA38D37B2CC112F00057FB2B /* Debug */,
+				FA38D37C2CC112F00057FB2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA38D37D2CC112F00057FB2B /* Build configuration list for PBXNativeTarget "SuperFormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA38D37E2CC112F00057FB2B /* Debug */,
+				FA38D37F2CC112F00057FB2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA38D34B2CC112EE0057FB2B /* Project object */;
+}
